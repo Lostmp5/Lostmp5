@@ -1,43 +1,11 @@
-# ─── Basis ─────────────────────────────────────────────
-numpy==2.2.*          # Core arrays
-pandas==2.3.*         # DataFrames
-numba==0.61.*         # JIT-Beschleunigung
-
-# ─── Datenquellen ─────────────────────────────────────
-yfinance==0.2.*       # Aktien/ETFs
-ccxt==4.*             # Krypto & FX (optional)
-python-dotenv==1.*    # .env-Dateien lesen
-
-# ─── Indikatoren ─────────────────────────────────────
-ta==0.11.*            # 40+ Indikatoren
-# Alternativ: TA-Lib (schneller, aber native Build)
-# TA-Lib==0.4.*
-
-# ─── Klassische Statistik & ML ───────────────────────
-scikit-learn==1.7.*
-statsmodels==0.14.*
-
-# ─── Gradient Boosting ───────────────────────────────
-xgboost==3.0.*
-lightgbm==4.6.*
-
-# ─── Deep Learning (wird nur geladen, wenn --gpu) ──
-tensorflow==2.19.*    # inkl. Keras; nutzt GPU, falls vorhanden
-# ODER
-# torch==2.7.*
-# torchvision==0.18.*
-
-# ─── Back-Testing & Analyse ──────────────────────────
-backtesting==0.6.*
-vectorbt==0.27.*
-quantstats==0.0.60
-pyportfolioopt==1.5.*
-
-# ─── Visualisierung ─────────────────────────────────
-matplotlib==3.10.*
-plotly==5.*
-
-# ─── Dev & Qualität ─────────────────────────────────
-pytest==8.*           # Unit-Tests
-mypy==1.*             # Typ-Prüfung
-ruff==0.*             # Linter
+yfinance==0.2.62
+pandas==2.3.0
+numpy==2.3.0
+scikit-learn==1.7.0
+xgboost==3.0.2
+statsmodels==0.14.4
+matplotlib==3.10.3
+ccxt==4.4.88
+pytest==8.3.5
+mypy==1.15.0
+ruff==0.11.10
