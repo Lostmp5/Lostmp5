@@ -1,5 +1,5 @@
 # ─── Basis ─────────────────────────────────────────────
-numpy==2.3.*          # Core arrays
+numpy==2.2.*          # Core arrays
 pandas==2.3.*         # DataFrames
 numba==0.61.*         # JIT-Beschleunigung
 
